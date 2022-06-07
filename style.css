@@ -1,0 +1,65 @@
+* {
+  font-family:'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #070707;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+<!--Пытаюсь сделать контейнер для того, чтобы ровнять все по центру экрана и страницы-->
+.container {
+  width: 944px;
+}
+
+header>nav>ul>li {
+  margin: 20px 20px 0px 20px;
+}
+
+h1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1,33;
+  text-align: left;
+  color: #070707;
+}
+
+h2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  color: #070707;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+hr {
+  width: 940px;
+  border: 1px solid #828282;
+}
+
+#about {
+  background: #F6F6F6;
+}
+
+#portfoilio {
+  background: #F6F6F6;
+}

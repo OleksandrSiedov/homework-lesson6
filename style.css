@@ -82,13 +82,11 @@ header hr {
 }
 
 #hero div {
-  width: 708px;
-  width: 480px;
+  width: 940.6px;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
 
 /*About me*/
 
@@ -114,11 +112,45 @@ header hr {
 
 #skills ul {
   list-style: none;
+  padding: 0;
   }
   
 #skills li {
-  display: inline-block
+  display: inline-block;
   }
+
+#skills li div {
+  margin: 90px;  
+}
+
+#skills li div p {
+font-size: 14px;
+line-height: 1.2;
+text-align: center;
+color: #828282;
+}
+
+#ps-logo {
+  background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+
+#ai-logo {
+  background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+}
+
+#ae-logo {
+  background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+}
+
+#figma-logo {
+  height: 88px;
+}
+
+#star {
+  width: 26px;
+  height: 26px;
+  margin: 0px 9px 0px 9px;
+}
 
 /*Portfolio*/
 

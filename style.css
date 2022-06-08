@@ -1,33 +1,17 @@
-* {
-  font-family:'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  color: #070707;
-}
-
-ul {
-  padding: 0;
+body {
   margin: 0;
 }
 
-<!--Пытаюсь сделать контейнер для того, чтобы ровнять все по центру экрана и страницы-->
-.container {
-  width: 944px;
-}
-
-header>nav>ul>li {
-  margin: 20px 20px 0px 20px;
+header, main, footer {
+  text-align: center;
 }
 
 h1 {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 1,33;
+  font-size: 47.3392px;
+  line-height: 1.35;
   text-align: left;
   color: #070707;
 }
@@ -37,29 +21,180 @@ h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
-  line-height: 46px;
+  line-height: 1.35;
+  text-align: center;
+  color: #070707;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.35;
   text-align: center;
   color: #070707;
 }
 
 
-ul {
-  list-style-type: none;
+/*Header including nav*/
+
+header nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
 }
 
-li {
+header nav ul li {
   display: inline-block;
+  margin: 23px 41px 29px 0px;
+  padding: 0;
 }
 
-hr {
-  width: 940px;
-  border: 1px solid #828282;
+header nav ul li a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.38;
+  color: #828282;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+header nav ul li a:hover {
+  color: #070707;
+}
+
+header hr {
+  width: 940.6px;
+  height: 0px;
+  border: 1px solid #828282;
+  padding: 0;
+  margin: auto;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+/*Hero*/
+
+#hero {
+  height: 623px;
+  display: flex;
+}
+
+#hero div {
+  width: 708px;
+  width: 480px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+/*About me*/
 
 #about {
+  height: 517px;
   background: #F6F6F6;
+  display: flex;
 }
 
-#portfoilio {
+#about div {
+  width: 480px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*Skills*/
+
+#hero {
+  width: 580px;
+  /*margin: auto;*/
+}
+
+#skills ul {
+  list-style: none;
+  }
+  
+#skills li {
+  display: inline-block
+  }
+
+/*Portfolio*/
+
+#portfolio {
   background: #F6F6F6;
+  padding-top: 100px;
+}
+
+#portfolio h2 {
+  margin-bottom: 67px;
+}
+
+#portfolio figcaption a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.35px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+
+/*Contacts*/
+
+#contacts {
+  display: flex;
+}
+
+#contacts div {
+  width: 340.82px;
+  height: 411.33px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#contacts h2 {
+  margin: 0;
+  margin-bottom: 21.1px;
+}
+
+#contacts p {
+  margin: 0;
+}
+
+#contacts ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+#contacts li {
+  display: inline-block;
+  margin: 0px 10px 44px 10px;
+  padding: 0;
+
+  }
+
+#contacts button {
+    width: 180px;
+    height: 42px;
+    background-color: #070707;
+    border-radius: 80px;
+    font-size: 18px;
+    line-height: 1.39;    
+    color: white;
+    margin-bottom: 37px;
+    margin-top: 78.14px;
+}
+
+.socialmediatext {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  text-align: center;
+  color: #828282;
 }

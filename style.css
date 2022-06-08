@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+}
+
+header, main, footer {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47.3392px;
+  line-height: 1.35;
+  text-align: left;
+  color: #070707;
+  margin-top: 0;
+  margin-bottom: 38px;
+}
+
+h2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.35;
+  text-align: center;
+  color: #070707;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.35;
+  text-align: center;
+  color: #070707;
+}
+
+
+/*Header including nav*/
+
+header nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 23px 41px 29px 0px;
+  padding: 0;
+}
+
+header nav ul li a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.38;
+  color: #828282;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+header nav ul li a:hover {
+  color: #070707;
+}
+
+header hr {
+  width: 940.6px;
+  height: 0px;
+  border: 1px solid #828282;
+  padding: 0;
+  margin: auto;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+/*Hero*/
+
+#hero {
+  display: flex;
+}
+
+#hero div {
+  width: 940px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#hero div img {
+  width: 940px;
+}
+
+/*About me*/
+
+#about {
+  height: 517px;
+  background: #F6F6F6;
+  display: flex;
+}
+
+#about div {
+  width: 480px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*Skills*/
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+  }
+  
+#skills li {
+  display: inline-block;
+  }
+
+#skills li div {
+  margin: 90px;  
+}
+
+#skills li div p {
+font-size: 14px;
+line-height: 1.2;
+text-align: center;
+color: #828282;
+}
+
+#ps-logo {
+  background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+
+#ai-logo {
+  background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+}
+
+#ae-logo {
+  background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+}
+
+#figma-logo {
+  height: 88px;
+}
+
+#star {
+  width: 26px;
+  height: 26px;
+  margin: 0px 9px 0px 9px;
+}
+
+/*Portfolio*/
+
+#portfolio {
+  background: #F6F6F6;
+  padding-top: 100px;
+}
+
+#portfolio h2 {
+  margin-bottom: 67px;
+}
+
+#portfolio figcaption a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.35px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+
+/*Contacts*/
+
+#contacts {
+  display: flex;
+}
+
+#contacts div {
+  width: 340.82px;
+  height: 411.33px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#contacts h2 {
+  margin: 0;
+  margin-bottom: 21.1px;
+}
+
+#contacts p {
+  margin: 0;
+}
+
+#contacts ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+#contacts li {
+  display: inline-block;
+  margin: 0px 10px 44px 10px;
+  padding: 0;
+
+  }
+
+#contacts button {
+    width: 180px;
+    height: 42px;
+    background-color: #070707;
+    border-radius: 80px;
+    font-size: 18px;
+    line-height: 1.39;    
+    color: white;
+    margin-bottom: 37px;
+    margin-top: 78.14px;
+}
+
+.socialmediatext {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  text-align: center;
+  color: #828282;
+}
